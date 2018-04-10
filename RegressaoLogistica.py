@@ -1,6 +1,6 @@
 import numpy as np
 
-def RegresaoLogistica(w, y, x, b : float, alfa : float, n : int):
+def RegressaoLogistica(w, y, x, b : float, alfa : float, n : int):
 	for i in range(3):
 		print("\nIteração {}:\n".format(i + 1))
 		
@@ -42,4 +42,4 @@ W = np.array([[2, 3]])
 Y = np.array([[0, 1]])
 X = np.array([[4, 5]])
 
-RegresaoLogistica(W, Y, X, 3, 0.003, 2)
+RegressaoLogistica(W, Y, X, 3, 0.003, 2)
